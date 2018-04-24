@@ -1,0 +1,120 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{李见黎}
+
+\basicInfo{
+  \email{alexan.lee@pku.edu.cn} \textperiodcentered\ 
+  \phone{(+86) 189-119-63820} \textperiodcentered\ 
+  \linkedin[李见黎]{http://www.linkedin.com/in/alexan-见黎-lee-李-a9627257/}} 
+
+\section{\faUsers\ 工作经历}
+\datedsubsection{\textbf{猎豹移动} ，北京}{2017年5月 -- 至今}
+\role{CTR、CVR预估}{广告算法}
+\begin{onehalfspacing}
+主要工作：猎豹移动广告变现算法维护、广告模型小时级别改造、PC模型构建、参加猎豹移动黑客马拉松模型组比赛等。
+\begin{itemize}
+  \item 接手并维护之前的模型数据流，切换集群等工作，都保证了原有模型的稳定运行。且在切换过程中详细梳理了各个数据流，以及关系。是的数据流更加的清晰。 
+  \item CTR模型小时级别的改造。顺利的完成改造，使点击率上升了5\%
+  \item PC模型搭建，面对PC业务展现大，点击量小，数据十分稀疏的困难，采用采样的方式降低展现量，实验最后达到了提升收入5\%至10\%的效果。
+  \item 积极参加猎豹黑客马拉松模型组，根据文本预测twitter表情，取得了较好成绩。
+\end{itemize}
+\end{onehalfspacing}
+
+\datedsubsection{\textbf{猎豹移动}，北京}{2016年3月 -- 至今}
+\role{流量管理平台}{项目核心开发，项目负责人}
+\begin{onehalfspacing}
+主要工作：猎豹移动流量管理平台（SSP），作为公司的流量统一管理平台，兼顾了多方的需求，面向了很多人群，主要包括流量方，运营，财务，数据等，有效的支撑了公司变现业务的发展。
+\begin{itemize}
+  \item 参与系统的整体规划设计。系统基于Spring MVC、Shiro权限控制、Mybatis、MySQL、Druid、Active MQ等。
+  \item 整个系统的后台开发。广告位管理、流量监控等功能的开发。
+  \item 报表功能的开发，使用了工厂方法等设计模式。
+  \item 一些定时任务的开发。
+  \item git作为项目管理工具，Jenkins作为构建工具。自己写的一键自动上线与部署脚本。 
+\end{itemize}
+\end{onehalfspacing}
+
+\datedsubsection{\textbf{东软集团股份有限公司}}{2012年11月 -- 2013年7月}
+\role{青岛市地税税收风险管理系统}{核心开发}
+\begin{onehalfspacing}
+工作内容：针对税收征管数据，利用不同的风险指标，定时的监测数据，并推送和反馈给纳税人以及税务人员。
+\begin{itemize}
+  \item 税收具有业务逻辑复杂,数据量大，指标多样，数据要求严格，反馈及时等特点。
+  \item 采用JSP、Struts、Spring、DRM（内部数据处理框架）、weblogic、Oracle、Linux/Aix/Solaris架构，利用多线程技术，分布式执行任务框架。
+  \item 指标运算采用阈值法，切比雪夫法等多种计算模型。
+  \item 经过专业人员甄别，再进行推送，对于推送流程逐步监控和反馈，及时得到结果。
+\end{itemize}
+\end{onehalfspacing}
+
+\datedsubsection{\textbf{东软集团股份有限公司}}{2013年7月 -- 2014年8月}
+\role{某省地税数据分析平台}{核心开发}
+\begin{onehalfspacing}
+工作内容：针对多样化的税收相关数据，包括核心征管，建筑安装，发票信息，稽查法律，财务上报等数据，构建统一的数据分析平台。
+\begin{itemize}
+  \item 参与平台的整体设计，完成了税收风险模块的设计、开发、维护工作，后期参与了各种类型报表的设计开发工作。
+  \item 主要挑战：数据源多样化，数据量大，且增量也较大，业务逻辑复杂，沟通多样。
+  \item 主要技术架构，jsp、java、SAP、Oracle、data stage、linux、weblogic等。
+  \item 项目获得了省级优秀信息化软件奖。
+\end{itemize}
+\end{onehalfspacing}
+
+\datedsubsection{\textbf{东软集团股份有限公司}}{2014年9月 -- 2015年10月}
+\role{国税总局财务软件以及基建软件平台}{核心开发}
+\begin{onehalfspacing}
+工作内容：财务软件部分维护工作，以及不同类型的定制开发工作，基建软件的维护工作以及定制开发工作。
+\begin{itemize}
+  \item 工作挑战：沟通复杂，数据质量要求较高，业务逻辑复杂，适应范围广。
+  \item 主要技术架构：java、weblogic、oracle、IBM MQ、linux架构。
+\end{itemize}
+\end{onehalfspacing}
+
+\section{\faGraduationCap\  教育背景}
+\datedsubsection{\textbf{北京大学}, 北京}{2016 -- 至今}
+\textit{硕士}\ 软件工程, 预计 2019 年 3 月毕业。
+ 主要课程：软件体系结构与设计，算法设计与分析，云计算技术及应用，面向对象技术高级课程，软件工程过程与项目管理等。
+
+\datedsubsection{\textbf{河北大学}, 河北}{2008 -- 2012}
+\textit{学士}\ 信息与计算科学。
+ 主要课程：数学分析，高等代数，数据结构，操作系统，计算机组成原理，计算机网络，微机原理与接口技术等。
+
+
+
+\section{\faCogs\ IT 技能}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item 编程语言: JAVA、Python、SQL、Shell等。
+  \item 平台: MAC、Linux。
+  \item 软件设计工程师。
+\end{itemize}
+
+\section{\faHeartO\ 获奖情况}
+\datedline{\textit{初赛目前352名}, 天池广告转化率预测比赛}{2018年4月}
+\datedline{\textit{第4名}, 猎豹移动黑客马拉松比赛}{2017年5月}
+\datedline{猎豹移动OAT优秀技术支持}{2017}
+\datedline{团队优秀奖}{2017}
+\datedline{省级优秀信息化软件奖}{2014}
+
+\section{\faInfo\ 其他}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item 技术博客: http://www.cnblogs.com/accipiter/
+  \item GitHub: https://github.com/AlexanLee
+  \item 语言: 英语 - 熟练。
+  \item 业余爱好：坚持每周一次游泳。
+\end{itemize}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}
