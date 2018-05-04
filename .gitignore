@@ -35,9 +35,12 @@
 *.idx
 *.ilg
 *.ind
-
+*.out
 *.dvi
 *.ps
+article/*.synctex.gz
+article/*.log
+article/*.aux
 
 ############################################
 # do not upload secret infomation
