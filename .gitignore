@@ -41,6 +41,7 @@
 article/*.synctex.gz
 article/*.log
 article/*.aux
+resume-zh_CN_B.*
 
 ############################################
 # do not upload secret infomation
